@@ -166,11 +166,13 @@ public class UniversityManagement {// class
 				System.out.print("Enter professor name");
 				String professorName = scanner.nextLine();
 				management.addProfessor(professorName);
+					break;
 
 			case 3:
 				System.out.print("Enter the course title: ");
 				String courseTitle = scanner.nextLine();
 				management.addStudent(courseTitle);
+					break;
 			case 4:
 				System.out.print("Enter the student name: ");
 				String enrollStudent = scanner.nextLine();
